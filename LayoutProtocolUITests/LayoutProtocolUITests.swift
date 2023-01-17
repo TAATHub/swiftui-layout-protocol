@@ -1,10 +1,3 @@
-//
-//  LayoutProtocolUITests.swift
-//  LayoutProtocolUITests
-//
-//  Created by 董 亜飛 on 2023/01/17.
-//
-
 import XCTest
 
 final class LayoutProtocolUITests: XCTestCase {
