@@ -17,6 +17,7 @@
 		1DD71AE72976511F00D7C5EF /* MyEqualWidthHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD71AE62976511F00D7C5EF /* MyEqualWidthHStack.swift */; };
 		1DD71AE92976514500D7C5EF /* EqualWidthLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD71AE82976514500D7C5EF /* EqualWidthLayoutView.swift */; };
 		1DD71AEB2976516400D7C5EF /* RadialLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD71AEA2976516400D7C5EF /* RadialLayoutView.swift */; };
+		1DD71AED29766B9200D7C5EF /* RadialLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD71AEC29766B9200D7C5EF /* RadialLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		1DD71AE62976511F00D7C5EF /* MyEqualWidthHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEqualWidthHStack.swift; sourceTree = "<group>"; };
 		1DD71AE82976514500D7C5EF /* EqualWidthLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualWidthLayoutView.swift; sourceTree = "<group>"; };
 		1DD71AEA2976516400D7C5EF /* RadialLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialLayoutView.swift; sourceTree = "<group>"; };
+		1DD71AEC29766B9200D7C5EF /* RadialLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				1DD71AE82976514500D7C5EF /* EqualWidthLayoutView.swift */,
 				1DD71AE62976511F00D7C5EF /* MyEqualWidthHStack.swift */,
 				1DD71AEA2976516400D7C5EF /* RadialLayoutView.swift */,
+				1DD71AEC29766B9200D7C5EF /* RadialLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				1DD71AE72976511F00D7C5EF /* MyEqualWidthHStack.swift in Sources */,
 				1DD71ABE2976502900D7C5EF /* ContentView.swift in Sources */,
+				1DD71AED29766B9200D7C5EF /* RadialLayout.swift in Sources */,
 				1DD71AE92976514500D7C5EF /* EqualWidthLayoutView.swift in Sources */,
 				1DD71ABC2976502900D7C5EF /* LayoutProtocolApp.swift in Sources */,
 				1DD71AEB2976516400D7C5EF /* RadialLayoutView.swift in Sources */,
