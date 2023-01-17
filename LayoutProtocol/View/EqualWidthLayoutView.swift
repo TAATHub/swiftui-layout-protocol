@@ -9,8 +9,26 @@ import SwiftUI
 
 struct EqualWidthLayoutView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .navigationTitle("Equal width layout")
+        MyEqualWidthHStack {
+            Button(action: {}) {
+                Text("AAA")
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
+            
+            Button(action: {}) {
+                Text("BBBBBBBB")
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
+            
+            Button(action: {}) {
+                Text("CCCCC")
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
+        }
+        .navigationTitle("Equal width layout")
     }
 }
 
