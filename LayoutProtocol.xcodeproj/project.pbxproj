@@ -14,6 +14,9 @@
 		1DD71ACD2976502D00D7C5EF /* LayoutProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD71ACC2976502D00D7C5EF /* LayoutProtocolTests.swift */; };
 		1DD71AD72976502D00D7C5EF /* LayoutProtocolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD71AD62976502D00D7C5EF /* LayoutProtocolUITests.swift */; };
 		1DD71AD92976502D00D7C5EF /* LayoutProtocolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD71AD82976502D00D7C5EF /* LayoutProtocolUITestsLaunchTests.swift */; };
+		1DD71AE72976511F00D7C5EF /* MyEqualWidthHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD71AE62976511F00D7C5EF /* MyEqualWidthHStack.swift */; };
+		1DD71AE92976514500D7C5EF /* EqualWidthLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD71AE82976514500D7C5EF /* EqualWidthLayoutView.swift */; };
+		1DD71AEB2976516400D7C5EF /* RadialLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD71AEA2976516400D7C5EF /* RadialLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		1DD71AD22976502D00D7C5EF /* LayoutProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD71AD62976502D00D7C5EF /* LayoutProtocolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutProtocolUITests.swift; sourceTree = "<group>"; };
 		1DD71AD82976502D00D7C5EF /* LayoutProtocolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutProtocolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DD71AE62976511F00D7C5EF /* MyEqualWidthHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEqualWidthHStack.swift; sourceTree = "<group>"; };
+		1DD71AE82976514500D7C5EF /* EqualWidthLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualWidthLayoutView.swift; sourceTree = "<group>"; };
+		1DD71AEA2976516400D7C5EF /* RadialLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		1DD71ABA2976502900D7C5EF /* LayoutProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				1DD71AE52976510200D7C5EF /* View */,
 				1DD71ABB2976502900D7C5EF /* LayoutProtocolApp.swift */,
 				1DD71ABD2976502900D7C5EF /* ContentView.swift */,
 				1DD71ABF2976502C00D7C5EF /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				1DD71AD82976502D00D7C5EF /* LayoutProtocolUITestsLaunchTests.swift */,
 			);
 			path = LayoutProtocolUITests;
+			sourceTree = "<group>";
+		};
+		1DD71AE52976510200D7C5EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DD71AE82976514500D7C5EF /* EqualWidthLayoutView.swift */,
+				1DD71AE62976511F00D7C5EF /* MyEqualWidthHStack.swift */,
+				1DD71AEA2976516400D7C5EF /* RadialLayoutView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD71AE72976511F00D7C5EF /* MyEqualWidthHStack.swift in Sources */,
 				1DD71ABE2976502900D7C5EF /* ContentView.swift in Sources */,
+				1DD71AE92976514500D7C5EF /* EqualWidthLayoutView.swift in Sources */,
 				1DD71ABC2976502900D7C5EF /* LayoutProtocolApp.swift in Sources */,
+				1DD71AEB2976516400D7C5EF /* RadialLayoutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
